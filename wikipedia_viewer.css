@@ -1,0 +1,115 @@
+body {
+  background-color: #fff;
+  height: 100%;
+}
+
+.bubble {
+  text-align: center;
+  border: 1px solid #222772;
+  padding: 30px;
+  width: 250px;
+  border-radius: 400px 400px 400px 400px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  margin-top: 38px;
+  left: 0;
+  right: 0;
+}
+
+.results {
+  margin-top: 40px;
+}
+
+p {
+  border: 1px dotted #222772;
+  color: #222772;
+  padding: 30px;
+  width: 55%;
+  margin: auto;
+  margin-bottom: 30px;
+  text-align: center;
+  border-radius: 400px 400px 400px 400px;
+  font-family: Helvetica;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+#name {
+  position: fixed;
+  margin-left: 20px;
+  font-family: Helvetica;
+  font-size: 11pt;
+  color: #222772;
+  border: 1px solid;
+  padding: 8px;
+  transition: background .20s ease-in-out;
+}
+
+p a {
+  color: #222772;
+}
+
+.choice, .choice a, choice a:hover {
+  font-family: Helvetica;
+  font-size: 15px;
+  color: #222772;
+}
+
+#name:hover {
+  background-color: #222772;
+  color: white;
+}
+
+input {
+  width: 150px;
+  text-align:center;
+}
+
+#random {
+  padding-bottom: 12px;
+}
+
+#search-bar {
+  padding-top: 12px;
+}
+
+/*--------- mobile n shit ---*/ 
+
+@media only screen 
+and (max-width: 440px) {
+  body {
+    width: 100%;
+    height: 100%;
+  }
+  .bubble {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  }
+  #name {
+    position: relative;
+    margin: auto;
+    width: 140px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  input {
+    width: 100px;
+  }
+  .results {
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+  }
+  p {
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+  }
+}
