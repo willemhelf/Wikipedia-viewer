@@ -43,7 +43,6 @@ p {
   color: #222772;
   border: 1px solid;
   padding: 8px;
-  transition: background .20s ease-in-out;
 }
 
 p a {

@@ -26,7 +26,7 @@ $(document).ready(function() {
         for (var i = 0; i <= data.length; i++) {
           var sentence = data[2][i];
          // if (sentence.indexOf("may refer to:") !== -1) {
-            
+            // sentence.slice(sentence.indexOf("may refer to:) - 1);
          // }
           
            // sentence.indexOf(":") !== -1 
