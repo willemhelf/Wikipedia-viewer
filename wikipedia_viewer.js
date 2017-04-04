@@ -25,13 +25,6 @@ $(document).ready(function() {
         
         for (var i = 0; i <= data.length; i++) {
           var sentence = data[2][i];
-         // if (sentence.indexOf("may refer to:") !== -1) {
-            // sentence.slice(sentence.indexOf("may refer to:) - 1);
-         // }
-          
-           // sentence.indexOf(":") !== -1 
-          // sentence.pop 
-          // sentence + ... ???
         $('<p> <a href=' + data[3][i] +'>' + data[1][i] + '</a>' + '<br>•<br>' + sentence + '<br></p>').appendTo('.results').hide().fadeIn(1500);
         }
       })
